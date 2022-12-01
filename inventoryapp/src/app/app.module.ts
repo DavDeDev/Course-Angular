@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] //What to bootstrap when the app starts
 })
 //! The application needs at least ONE module to run, this is why Angular CLI created this module for us.
-export class AppModule { }
+export class AppModule { } // Root module
