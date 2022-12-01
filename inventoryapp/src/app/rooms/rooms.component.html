@@ -1,0 +1,13 @@
+<h1> Welcome to {{hotelName}}!</h1>
+
+
+
+<div [hidden]="hideRooms">
+  Number of rooms:
+  <!-- document.getElementById('numberOfRooms').innerText = this.numberOfRooms;
+  is the same as: -->
+  <div [innerText]="numberOfRooms"></div>
+</div>
+<!-- <button onclick="functionName()">Click me</button>
+   is the same as: -->
+<button (click)="toggle()">Show number of rooms</button>

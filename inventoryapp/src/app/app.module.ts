@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RoomsComponent } from './rooms/rooms.component';
 
 // NgModule decorator gives the metadata for the module to the compiler
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RoomsComponent
   ],
   imports: [
     BrowserModule,
